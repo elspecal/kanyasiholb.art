@@ -1,0 +1,32 @@
+{
+  "name": "kanyasiholb.art",
+  "version": "0.1.0",
+  "description": "Art portfolio site of Margit Kányási Holb.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elspecal/kanyasiholb.art.git"
+  },
+  "keywords": [
+    "website"
+  ],
+  "author": "Miki Csepella",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elspecal/kanyasiholb.art/issues"
+  },
+  "homepage": "https://github.com/elspecal/kanyasiholb.art#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "^2.3.2",
+    "stylelint": "^13.13.1",
+    "stylelint-config-recommended": "^5.0.0",
+    "stylelint-config-standard": "^22.0.0",
+    "stylelint-config-prettier": "^8.0.2"
+  }
+}
