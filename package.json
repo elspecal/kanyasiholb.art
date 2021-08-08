@@ -4,7 +4,8 @@
   "description": "Art portfolio site of Margit Kányási Holb.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "astro dev",
+    "build": "astro build"
   },
   "repository": {
     "type": "git",
@@ -25,8 +26,11 @@
     "eslint-plugin-prettier": "^3.4.0",
     "prettier": "^2.3.2",
     "stylelint": "^13.13.1",
+    "stylelint-config-prettier": "^8.0.2",
     "stylelint-config-recommended": "^5.0.0",
-    "stylelint-config-standard": "^22.0.0",
-    "stylelint-config-prettier": "^8.0.2"
+    "stylelint-config-standard": "^22.0.0"
+  },
+  "dependencies": {
+    "astro": "^0.18.9"
   }
 }
